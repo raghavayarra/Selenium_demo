@@ -61,3 +61,9 @@ dec=my_func(wish)
 dec("raghava")
 dec("sunny")
 dec("kiarn")
+
+
+def square(n):
+    return n*n
+
+square(5)
