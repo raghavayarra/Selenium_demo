@@ -35,3 +35,10 @@ print(s)
 
 s=division(20,0)
 print(s)
+
+
+def wish(name):
+    print("hi",name,"gudmrng!!")
+
+wish("raghava")
+wish("kiran")
