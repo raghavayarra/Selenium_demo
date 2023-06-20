@@ -1,4 +1,4 @@
-'''def my_func(func):
+def my_func(func):
     def inner(name):
         if name == "sunny":
             print("hello sunny badmrng!!!")
@@ -14,8 +14,8 @@ wish("sunny")
 dec=my_func(wish)
 dec("raghava")
 dec("sunny")
+dec("kiarn")
 
-'''
 
 def smart_division(func):
     def inner(a,b):
@@ -31,4 +31,7 @@ def division(a,b):
     return a/b
 
 s=division(20,10)
+print(s)
+
+s=division(20,0)
 print(s)
