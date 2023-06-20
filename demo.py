@@ -1,21 +1,3 @@
-def my_func(func):
-    def inner(name):
-        if name == "sunny":
-            print("hello sunny badmrng!!!")
-        else:
-            func(name)
-    return inner
-#@my_func
-def wish(name):
-    print("hello",name,"gudmrng!!!")
-
-wish("raghava")
-wish("sunny")
-dec=my_func(wish)
-dec("raghava")
-dec("sunny")
-dec("kiarn")
-
 
 def smart_division(func):
     def inner(a,b):
